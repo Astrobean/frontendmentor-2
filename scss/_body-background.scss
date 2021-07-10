@@ -1,0 +1,17 @@
+$bg-width: 978px;
+
+// Mobile (default) styles
+body {
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -40rem -30rem, right -40rem bottom -30rem;
+}
+
+// Desktop styles. The breakpoint was determined by Frontend Mentor's style guide, I would have used a different width, personally.
+@media screen and (min-width:376px) {
+  body {
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -15rem -28rem, right -10rem bottom -32rem;
+  }
+}
