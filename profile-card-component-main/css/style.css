@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 376px) {
+  .bg {
+    background-color: #19a2ae;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .bg .bg__left {
+    content: "";
+    height: 100%;
+    flex: 1 1 50%;
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: 0px -489px;
+  }
+  .bg .bg__right {
+    content: "";
+    height: 100%;
+    flex: 1 1 50%;
+    background-image: url(../images/bg-pattern-bottom.svg);
+  }
+}
+
+.card {
+  height: 21.875rem;
+  width: 23.25rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.card .card__top {
+  height: 35%;
+  background-image: url(../images/bg-pattern-card.svg);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card .card__middle {
+  height: 35%;
+  background-color: white;
+  border-bottom: 1px solid #969696;
+}
+
+.card .card__middle img {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+}
+
+.card .card__bottom {
+  height: 20%;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+body {
+  background-color: #19a2ae;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

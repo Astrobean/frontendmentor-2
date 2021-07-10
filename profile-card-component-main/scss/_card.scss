@@ -1,0 +1,34 @@
+.card {
+  height: 21.875rem;
+  width: 23.25rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  .card__top {
+    height: 35%;
+    background-image: url(../images/bg-pattern-card.svg);
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .card__middle {
+    height: 35%;
+    background-color: white;
+    border-bottom: 1px solid $darkGray;
+
+    img {
+      // picture size: 96x96
+      border-radius: 50%;
+      border: 5px solid white;
+      position: relative;
+      transform: translateX(-50%) translateY(-50%);
+      left: 50%;
+    }
+  }
+
+  .card__bottom {
+    height: 20%;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+}
