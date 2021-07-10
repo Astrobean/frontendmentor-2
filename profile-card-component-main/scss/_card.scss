@@ -1,3 +1,5 @@
+// The card layout does not change depending on screen size, so there are no media queries.
+
 .card {
   height: 21.875rem;
   width: 23.25rem;
@@ -49,5 +51,27 @@
     height: 20%;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+
+    ul {
+      text-align: center;
+      list-style: none;
+      line-height: 1.2rem;
+
+      li {
+        font-family: Kumbh Sans;
+        font-size: 0.7em;
+        font-weight: 400;
+
+        &:nth-child(2) {
+          letter-spacing: 2px;
+          color: $darkGray;
+        }
+      }
+    }
+
   }
 }

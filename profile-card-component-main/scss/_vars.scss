@@ -4,15 +4,3 @@ $darkCyan: hsl(185, 75%, 39%);
 $veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
 $darkGrayishBlue: hsl(227, 10%, 46%);
 $darkGray: hsl(0, 0%, 59%);
-
-// Globals
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  font-size: 1.125rem; // based on Style guide
-}
-
-// SVG size is 978x978

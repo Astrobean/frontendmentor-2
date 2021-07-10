@@ -6,14 +6,6 @@
   font-size: 1.125rem;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 h4 {
   font-family: Kumbh Sans;
   font-weight: 700;
@@ -99,6 +91,27 @@ span {
   height: 20%;
   background-color: white;
   border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.card .card__bottom ul {
+  text-align: center;
+  list-style: none;
+  line-height: 1.2rem;
+}
+
+.card .card__bottom ul li {
+  font-family: Kumbh Sans;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+.card .card__bottom ul li:nth-child(2) {
+  letter-spacing: 2px;
+  color: #969696;
 }
 
 body {
