@@ -14,6 +14,17 @@
   padding: 0;
 }
 
+h4 {
+  font-family: Kumbh Sans;
+  font-weight: 700;
+}
+
+span {
+  font-family: Kumbh Sans;
+  font-weight: 400;
+  display: inline-block;
+}
+
 @media screen and (min-width: 376px) {
   .bg {
     background-color: #19a2ae;
@@ -46,13 +57,13 @@
 }
 
 .card .card__top {
-  height: 35%;
+  height: 33%;
   background-image: url(../images/bg-pattern-card.svg);
   border-radius: 10px 10px 0px 0px;
 }
 
 .card .card__middle {
-  height: 35%;
+  height: 37%;
   background-color: white;
   border-bottom: 1px solid #969696;
 }
@@ -61,6 +72,25 @@
   border-radius: 50%;
   border: 5px solid white;
   position: relative;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+}
+
+.card .card__middle h4 {
+  position: relative;
+  top: -2rem;
+  text-align: center;
+}
+
+.card .card__middle h4 span {
+  color: #969696;
+}
+
+.card .card__middle .city {
+  font-size: 0.85rem;
+  color: #969696;
+  position: relative;
+  top: -1.4rem;
   transform: translateX(-50%) translateY(-50%);
   left: 50%;
 }

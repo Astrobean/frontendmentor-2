@@ -6,13 +6,13 @@
   border-radius: 10px;
 
   .card__top {
-    height: 35%;
+    height: 33%;
     background-image: url(../images/bg-pattern-card.svg);
     border-radius: 10px 10px 0px 0px;
   }
 
   .card__middle {
-    height: 35%;
+    height: 37%;
     background-color: white;
     border-bottom: 1px solid $darkGray;
 
@@ -24,6 +24,25 @@
       transform: translateX(-50%) translateY(-50%);
       left: 50%;
     }
+
+      h4 {
+        position: relative;
+        top: -2rem;
+        text-align: center;
+        span {
+          color: $darkGray;
+        }
+      }
+
+      .city {
+        font-size: 0.85rem;
+        color: $darkGray;
+        position: relative;
+        top: -1.4rem;
+        transform: translateX(-50%) translateY(-50%);
+        left: 50%;
+      }
+
   }
 
   .card__bottom {
